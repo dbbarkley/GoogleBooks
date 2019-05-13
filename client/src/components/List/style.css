@@ -36,6 +36,6 @@
 .list-group-item{
   border-radius:10px;
   margin-bottom:5px;
-  background: #ECE4B7;
-  border:2px #D36135 solid;
+  background: rgb(243, 243, 243);
+  border:2px rgb(0, 0, 0) solid;
 }

@@ -22,27 +22,26 @@
   }
   
   .noResults{
-    background-color:white;
+    background: rgb(243, 243, 243);
     border-radius:5px;
     padding:10px;
   }
   
   body{
-    background-color:#7FB069;
+    background-image: url("images/library.jpeg");
   }
   .jumbotron{
     margin-top:20px;
-    background-color:#ECE4B7;
-    border: 2px solid #D36135;
+    background: rgb(243, 243, 243);
+    border: 2px solid rgb(0, 0, 0);
   }
   .searchBtn{
-    background-color:#D26135 !important;
-    border-color:#E6AA68 !important;
-    border:2px solid #E6AA68;
+    background-color:rgb(56, 160, 245) !important;
+    border-color:rgb(0, 0, 0) !important;
+    border:2px solid rgb(0, 0, 0);
   }
   .searchBtn:hover,.searchBtn:active{
-    border-color:#E6AA68;
-    border:3px solid #E6AA68;
+    background-color:rgb(4, 70, 146)!important;
   }
   
   @media only screen and (max-width: 600px) {

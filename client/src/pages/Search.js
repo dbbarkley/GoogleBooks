@@ -55,7 +55,7 @@ class Books extends Component {
      
            <Col size="sm-12">
               <Title>
-              <h1>Search a book</h1>
+              <h1>Search For a Book</h1>
             </Title>
           <form>
             <Input
@@ -75,9 +75,6 @@ class Books extends Component {
         </Row>
         <Row>
           <Col size="sm-12">
-            <Jumbotron>
-              <h1>Results</h1>
-            </Jumbotron>
             {(this.state.books?this.state.books.length:false) ? (
               <>
                 {this.state.books.map((book,index) => (
@@ -111,7 +108,7 @@ class Books extends Component {
                 ))}
               </>
             ) : (
-              <h3 className="noResults">No Results to Display</h3>
+              <h3 className="noResults">Search to See Results</h3>
             )}
           </Col>
         </Row>
