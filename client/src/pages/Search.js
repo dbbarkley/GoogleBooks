@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ViewBtn from "../components/ViewBtn";
 import SaveBtn from "../components/SaveBtn";
-import Jumbotron from "../components/Jumbotron";
 import Title from "../components/Title";
 import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";

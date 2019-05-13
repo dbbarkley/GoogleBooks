@@ -1,5 +1,6 @@
 .delete-btn {
   cursor:pointer;
-    margin:0 5px 5px;
+  background-color: red!important;
+  margin:0 5px 5px;
   padding: 5px 15px;
 }

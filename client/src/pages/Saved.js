@@ -57,14 +57,14 @@ class Books extends Component {
                         <img src={book.image} alt={book.title}></img>
                       </Col>
                       <Col size="8 md-10 description">
-                        <div className="description"> {book.description.length <1000 ? book.description : book.description.slice(0,1000)+"..."} </div>
+                        <div className="description"> {book.description} </div>
                       </Col>
                     </Row>  
                   </ListItem>
                 ))}
               </>
             ) : (
-              <h3 class="noResults">No Results to Display</h3>
+              <h3 className="noResults">No Results to Display</h3>
             )}
           </Col>
         </Row>
